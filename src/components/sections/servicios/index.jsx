@@ -1,5 +1,4 @@
 import { FaShower } from "react-icons/fa6";
-import { PiCoffeeFill } from "react-icons/pi";
 import { FaWifi } from "react-icons/fa";
 import { GiPoliceOfficerHead } from "react-icons/gi";
 import { MdKitchen } from "react-icons/md";
