@@ -4,7 +4,7 @@ import "./index.scss";
 
 const Galeria = () => {
     return (
-        <section className="py-6 text-center mx-10 gallery">
+        <section className="py-6 text-center mx-10 gallery" id="galeria">
             <h2 className="text-3xl font-medium">Galería</h2>
             <ul className="flex flex-wrap pt-7 pb-5">
                 <li>

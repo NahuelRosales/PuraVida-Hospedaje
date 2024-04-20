@@ -5,7 +5,7 @@ import { MdKitchen } from "react-icons/md";
 import { MdOutlineSurfing } from "react-icons/md";
 const Servicios = () => {
     return (
-        <section className="py-6 text-center bg-primary">
+        <section className="py-6 text-center bg-primary" id="servicios">
             <h2 className="text-3xl font-medium">Servicios</h2>
             <div className="">
                 <ul className="flex justify-evenly flex-wrap">

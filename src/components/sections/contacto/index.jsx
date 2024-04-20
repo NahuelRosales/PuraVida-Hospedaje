@@ -4,7 +4,7 @@ import WhatsappIcon from "../../../../public/WhatsApp.svg";
 
 const Contacto = () => {
     return (
-        <section className="py-6 text-center ">
+        <section className="py-6 text-center " id="contacto">
             <h2 className="text-3xl font-medium">Contacto</h2>
             <div className="flex mx-7 sm:mx-0 my-3.5 flex-wrap sm:justify-between">
                 <div className="mx-14 my-3.5">

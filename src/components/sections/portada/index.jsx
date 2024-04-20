@@ -6,10 +6,10 @@ import Button from "../../../commons/button";
 const Portada = () => {
     return (
         <>
-            <div className="relative">
+            <div className="relative" id="home">
                 <div className="px-[12%] mt-28 sm:mt-[12%] bg-secondary/30 absolute">
                     <h1 className="sm:text-6xl text-5xl font-medium text-b">
-                        El Pura Vida
+                        Pura Vida Hospedaje
                     </h1>
                     <p className="sm:text-2xl text-xl py-5 font-medium">
                         Bienvenido a nuestro acogedor hospedaje. Contamos con

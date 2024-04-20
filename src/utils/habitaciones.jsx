@@ -29,6 +29,11 @@ const habitaciones = [
         {img: "habitacion6.jpg"},
         {desc: ["x2", "Desayuno", "Wi-Fi", "Privado", "Asador",]}
     ],
+    [
+        {name: "Camping"},
+        {img: "habitacion12.jpg"},
+        {desc: ["x2", "Desayuno", "Wi-Fi", "Privado", "Asador",]}
+    ],
 ];
 
 export default habitaciones;

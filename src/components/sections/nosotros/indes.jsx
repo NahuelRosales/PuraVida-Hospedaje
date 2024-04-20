@@ -2,9 +2,9 @@ import NosotrosImg from "../../../../public/nosotros.jpg";
 
 const Nosotros = () => {
     return (
-        <section className="py-6 mx-14 text-center">
+        <section className="py-6 sm:mx-14 text-center" id="nosotros">
             <h2 className="text-3xl font-medium">Nosotros</h2>
-            <div className="my-7 py-7 relative">
+            <div className="my-7 sm:py-7 relative">
                 <h3 className="bg-secondary text-left text-2xl font-semibold py-2 px-7 size-fit ml-[8.5%]">
                     ¿Quiénes somos?
                 </h3>
@@ -32,7 +32,7 @@ const Nosotros = () => {
                 <img
                     src={NosotrosImg}
                     alt="nosotros.jpg"
-                    className="w-full absolute object-center h-full top-0 -z-10"
+                    className="w-full absolute object-center hidden sm:block h-full top-0 -z-10"
                 />
             </div>
         </section>
