@@ -7,6 +7,7 @@ import Servicios from './components/sections/servicios'
 import WhatsappFix from './components/whatsappFix/WhatsappFix'
 import Contacto from './components/sections/contacto'
 import Ubicacion from './components/sections/ubicacion'
+import Pago from './components/sections/pago'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       <Galeria/>
       <Servicios/>
       <Nosotros/>
+      <Pago/>
       <Contacto/>
       <Ubicacion/>
     </>
