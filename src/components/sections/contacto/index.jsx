@@ -15,10 +15,6 @@ const Contacto = () => {
                         <img src={WhatsappIcon} alt="" className="w-7 h-7" />{" "}
                         <p className="m-1 font-medium">+506 8 5689-4123</p>
                     </div>
-                    <div className="flex items-center">
-                        <img src={WhatsappIcon} alt="" className="w-7 h-7" />{" "}
-                        <p className="m-1 font-medium">+506 8 4559-7845</p>
-                    </div>
                 </div>
                 <div className="mx-14 my-3.5">
                     <p className="mb-2 font-bold text-left">Redes sociales:</p>
