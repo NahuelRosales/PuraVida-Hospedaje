@@ -6,7 +6,7 @@ const Header = () => {
             <div className="pl-3.5 lg:pl-16">
                 <h1 className="font-bold">Pura Vida Hospedaje</h1>
             </div>
-<GiHamburgerMenu className="w-20 text-3xl"/>
+<GiHamburgerMenu className="w-20 text-3xl lg:hidden"/>
             <nav className="lg:flex hidden items-center px-4 mx-4 w-8/12 justify-evenly font-medium">
                 <h2>Habitaciones</h2>
                 <h2>Galería</h2>

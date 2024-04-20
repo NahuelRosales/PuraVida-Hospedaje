@@ -7,7 +7,7 @@ const Portada = () => {
     return (
         <>
             <div className="relative">
-                <div className="px-[12%] mt-[12%] bg-secondary/30 absolute">
+                <div className="px-[12%] mt-28 sm:mt-[12%] bg-secondary/30 absolute">
                     <h1 className="sm:text-6xl text-5xl font-medium text-b">
                         El Pura Vida
                     </h1>

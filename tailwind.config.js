@@ -5,8 +5,8 @@ export default {
         extend: {
             colors: {
                 primary: "#3B7AA7",
-                primaryHover: "#463BCE",
-                primaryFocus: "#675BEB",
+                primaryHover: "#4f84ab",
+                primaryFocus: "#2a71a3",
                 secondary: "#8CBCD1",
                 action: "#302DC4",
                 text: "#173144",
