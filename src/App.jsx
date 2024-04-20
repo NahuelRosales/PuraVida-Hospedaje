@@ -6,6 +6,7 @@ import Nosotros from './components/sections/nosotros/indes'
 import Servicios from './components/sections/servicios'
 import WhatsappFix from './components/whatsappFix/WhatsappFix'
 import Contacto from './components/sections/contacto'
+import Ubicacion from './components/sections/ubicacion'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       <Servicios/>
       <Nosotros/>
       <Contacto/>
+      <Ubicacion/>
     </>
   )
 }
