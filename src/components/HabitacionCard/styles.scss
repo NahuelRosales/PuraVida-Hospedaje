@@ -1,0 +1,20 @@
+.habitacion-card {
+    position: relative;
+
+    .habitacion__detalle {
+        display: none;
+    }
+    &:hover {
+        transition: 0.5s;
+        transform: scale(1.05);
+        img {
+            transition: 0.5s;
+            opacity:30%;
+        }
+        .habitacion__detalle {
+            transition: 0.5s;
+            display: block;
+            position: absolute;
+        }
+    }
+}

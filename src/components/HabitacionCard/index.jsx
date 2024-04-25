@@ -6,10 +6,15 @@ import { PiCoffeeFill } from "react-icons/pi";
 import { FaWifi } from "react-icons/fa";
 import { GiBarbecue } from "react-icons/gi";
 
+import "./styles.scss";
+
 const HabitacionCard = ({ habitacion }) => {
     return (
-        <div className="bg-white rounded-2xl w-96 m-5 overflow-hidden">
+        <div className="bg-white rounded-2xl w-96 m-5 overflow-hidden habitacion-card">
             <img src={habitacion[1].img} alt="" className="h-72" />
+            <p className="habitacion__detalle px-3.5 py-14 top-0 font-bold">
+                {habitacion[3].detalle}
+            </p>
             <div className="px-[3%]">
                 <h3 className="py-3.5 font-medium text-2xl">
                     {habitacion[0].name}

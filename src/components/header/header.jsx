@@ -78,12 +78,12 @@ const Header = () => {
                         </Link>
                     </li>
                     <li className="flex text-3xl w-20 justify-around text-white">
-                        <Link to="http://www.facebook.com">
+                        <a href="http://www.facebook.com">
                             <RiFacebookBoxFill />
-                        </Link>
-                        <Link to="http://www.instagram.com">
+                        </a>
+                        <a href="http://www.instagram.com">
                             <RiInstagramLine />
-                        </Link>
+                        </a>
                     </li>
                 </ul>
             </nav>

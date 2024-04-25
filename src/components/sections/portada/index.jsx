@@ -18,7 +18,7 @@ const Portada = () => {
                         Nos ubicamos a metros de la playa Avellanas, en la
                         ciudad de <b>Guanacaste, Costa Rica</b>.
                     </p>
-                    <Button text="Contactarse" />
+                    <Button text="Reservar" />
                 </div>
 
                 <div className="min-h-100vh">

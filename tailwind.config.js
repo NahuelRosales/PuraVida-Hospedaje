@@ -10,9 +10,9 @@ export default {
                 secondary: "#8CBCD1",
                 action: "#302DC4",
                 text: "#173144",
-                instagram: '#e4405f',
-                facebook: '#3b5999',
-              },
+                instagram: "#e4405f",
+                facebook: "#3b5999",
+            },
         },
         fontFamily: {
             roboto: ["Roboto", "sans-serif"],
