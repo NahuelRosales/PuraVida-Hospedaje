@@ -56,7 +56,7 @@ const Header = () => {
                             spy={true}
                             smooth={true}
                             offset={-20}
-                            onClick={() => setShowMenuBar(!showMenuBar)}
+                            onClick={() => setShowMenuBar(false)}
                             duration={500}
                             className="cursor-pointer pl-7 flex items-center"
                         >
@@ -71,7 +71,7 @@ const Header = () => {
                             smooth={true}
                             offset={-20}
                             duration={500}
-                            onClick={() => setShowMenuBar(!showMenuBar)}
+                            onClick={() => setShowMenuBar(false)}
                             className="cursor-pointer pl-7 flex items-center"
                         >
                             <IoMdImage className="mr-4 size-7 lg:hidden" />
@@ -85,7 +85,7 @@ const Header = () => {
                             smooth={true}
                             offset={-20}
                             duration={500}
-                            onClick={() => setShowMenuBar(!showMenuBar)}
+                            onClick={() => setShowMenuBar(false)}
                             className="cursor-pointer pl-7 flex items-center"
                         >
                             <FaHandHoldingHeart className="mr-4 size-7 lg:hidden" />
@@ -99,7 +99,7 @@ const Header = () => {
                             smooth={true}
                             offset={-20}
                             duration={500}
-                            onClick={() => setShowMenuBar(!showMenuBar)}
+                            onClick={() => setShowMenuBar(false)}
                             className="cursor-pointer pl-7 flex items-center"
                         >
                             <FaUsers className="mr-4 size-7 lg:hidden" />
@@ -113,7 +113,7 @@ const Header = () => {
                             smooth={true}
                             offset={-20}
                             duration={500}
-                            onClick={() => setShowMenuBar(!showMenuBar)}
+                            onClick={() => setShowMenuBar(false)}
                             className="cursor-pointer pl-7 flex items-center"
                         >
                             <FaPhoneAlt className="mr-4 size-7 lg:hidden" />

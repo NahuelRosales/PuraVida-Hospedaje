@@ -14,7 +14,7 @@ const Habitaciones = () => {
                     />
                 ))}
             </div>
-            <Button text={"CONSULTAR PRECIOS"}/>
+            <Button text={"CONSULTAR PRECIOS"} onClick={() => (window.open('https://wa.me/1565748724?text=Hola%20Nauwu%20estoy%20en%20tu%20appr%20gg%20.%20Me%20gustaría%20saber%20los%20precios%20de%20las%20habitaciones%20compartidas.'))}/>
         </section>
     );
 };

@@ -18,7 +18,7 @@ const Portada = () => {
                         Nos ubicamos a metros de la playa Avellanas, en la
                         ciudad de <b>Guanacaste, Costa Rica</b>.
                     </p>
-                    <Button text={"RESERVAR"} onClick={() => (window.open('https://wa.me/1565748724?text=Hola%20Nauwu%20estoy%20en%20tu%20appr%20gg'))} />
+                    <Button text={"RESERVAR"} onClick={() => (window.open('https://wa.me/1565748724?text=Hola%20Nauwu%20estoy%20en%20tu%20app%20gg'))} />
                 </div>
 
                 <div className="min-h-100vh">

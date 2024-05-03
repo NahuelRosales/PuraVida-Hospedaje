@@ -11,7 +11,7 @@ const Contacto = () => {
                     <p className="mb-2 font-bold text-left">
                         Llamadas o Whatsapp:
                     </p>
-                    <div className="flex items-center">
+                    <div className="flex items-center" onClick={() => (window.open('https://wa.me/1565748724?text=Hola%20Nauwu%20estoy%20en%20tu%20appr%20gg%20.%20Me%20gustaría%20saber%20los%20precios%20de%20las%20habitaciones%20compartidas.'))}>
                         <img src={WhatsappIcon} alt="" className="w-7 h-7" />{" "}
                         <p className="m-1 font-medium">+506 8 5689-4123</p>
                     </div>
