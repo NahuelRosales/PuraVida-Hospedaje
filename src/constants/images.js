@@ -10,7 +10,7 @@ import habitacion9img from "../../public/habitacion9.jpg";
 import habitacion10img from "../../public/habitacion10.jpg";
 import habitacion11img from "../../public/habitacion11.jpg";
 
-export const IMAGES = {
+export const IMAGES = [
     habitacion1img,
     habitacion2img,
     habitacion3img,
@@ -22,4 +22,4 @@ export const IMAGES = {
     habitacion9img,
     habitacion10img,
     habitacion11img,
-};
+];

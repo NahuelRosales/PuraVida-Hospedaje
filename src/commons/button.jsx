@@ -1,8 +1,9 @@
-import { string } from "prop-types"
+import { func, string } from "prop-types";
 
-const Button = ({text}) => {
+const Button = ({ text, onClick }) => {
     return (
         <button
+            onClick={onClick}
             type="button"
             className="text-white font-bold rounded-full text-xl px-8 py-2.5 text-center me-2 mb-2 bg-primary hover:bg-primaryHover focus:bg-primaryFocus"
         >
@@ -12,7 +13,8 @@ const Button = ({text}) => {
 };
 
 Button.propTypes = {
-    text: string.isRequired
-}
+    text: string,
+    onClick: func,
+};
 
 export default Button;

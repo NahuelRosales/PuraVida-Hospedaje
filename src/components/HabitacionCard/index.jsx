@@ -21,52 +21,35 @@ const HabitacionCard = ({ habitacion }) => {
                 </h3>
                 <ul className="flex justify-evenly mb-3">
                     {habitacion[2].desc.map((item, i) => (
-                        <li className="w-[20%]" key={i}>
-                            {item === "x2" && (
+                        <li className="w-[20%] text-xs" key={i}>
+                            {(item === "x2" || item === "x4" || item === "x6" || item === "x8") && (
                                 <div>
-                                    <GoPersonFill className="m-auto rounded-full bg-secondary p-1.5 w-10 h-10" />
+                                    <GoPersonFill className="m-auto p-1.5 w-10 h-10" />
                                     {item}
                                 </div>
                             )}
-                            {item === "x4" && (
-                                <div>
-                                    <GoPersonFill className="m-auto rounded-full bg-secondary p-1.5 w-10 h-10" />
-                                    {item}
-                                </div>
-                            )}
-                            {item === "x6" && (
-                                <div>
-                                    <GoPersonFill className="m-auto rounded-full bg-secondary p-1.5 w-10 h-10" />
-                                    {item}
-                                </div>
-                            )}
-                            {item === "x8" && (
-                                <div>
-                                    <GoPersonFill className="m-auto rounded-full bg-secondary p-1.5 w-10 h-10" />
-                                    {item}
-                                </div>
-                            )}
+                            
                             {item === "Desayuno" && (
                                 <div>
-                                    <PiCoffeeFill className="m-auto rounded-full bg-secondary p-1.5 w-10 h-10" />
+                                    <PiCoffeeFill className="m-auto p-1.5 w-10 h-10" />
                                     {item}
                                 </div>
                             )}
                             {item === "Wi-Fi" && (
                                 <div>
-                                    <FaWifi className="m-auto rounded-full bg-secondary p-1.5 w-10 h-10" />
+                                    <FaWifi className="m-auto p-1.5 w-10 h-10" />
                                     {item}
                                 </div>
                             )}
                             {item === "Privado" && (
                                 <div>
-                                    <FaShower className="m-auto rounded-full bg-secondary p-1.5 w-10 h-10" />
+                                    <FaShower className="m-auto p-1.5 w-10 h-10" />
                                     {item}
                                 </div>
                             )}
                             {item === "Asador" && (
                                 <div>
-                                    <GiBarbecue className="m-auto rounded-full bg-secondary p-1.5 w-10 h-10" />
+                                    <GiBarbecue className="m-auto p-1.5 w-10 h-10" />
                                     {item}
                                 </div>
                             )}

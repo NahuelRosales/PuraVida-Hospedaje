@@ -14,13 +14,6 @@ export default {
                 facebook: "#3b5999",
             },
         },
-        fontFamily: {
-            roboto: ["Roboto", "sans-serif"],
-            serif: ["ui-serif", "Georgia"],
-            mono: ["ui-monospace", "SFMono-Regular"],
-            display: ["Oswald"],
-            body: ['"Open Sans"'],
-        },
     },
     plugins: [],
 };

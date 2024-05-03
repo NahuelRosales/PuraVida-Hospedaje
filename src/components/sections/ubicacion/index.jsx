@@ -1,8 +1,8 @@
 
 const Ubicacion = () => {
     return (
-        <section className="pb-7 text-center">
-            <h3 className="text-3xl font-medium pb-7">Ubicación:</h3>
+        <section className="py-7 text-center">
+            <h2 className="pb-7">Ubicación:</h2>
             <div className="flex flex-wrap justify-evenly lg:flex-row-reverse">
                 <iframe
                     className="mb-7 mx-7 lg:w-7/12 w-full h-96 rounded-xl"

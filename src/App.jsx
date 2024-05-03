@@ -1,14 +1,15 @@
 import Header from "./components/header/header";
 import Portada from "./components/sections/portada";
-import Galeria from "./components/sections/galeria";
 import Habitaciones from "./components/sections/habitaciones";
 import Nosotros from "./components/sections/nosotros/indes";
 import Servicios from "./components/sections/servicios";
+import Galeria from "./components/sections/galeria";
 import WhatsappFix from "./components/whatsappFix/WhatsappFix";
 import Contacto from "./components/sections/contacto";
 import Ubicacion from "./components/sections/ubicacion";
 import Pago from "./components/sections/pago";
 import Footer from "./components/footer";
+
 
 function App() {
     return (
@@ -17,11 +18,11 @@ function App() {
             <Portada />
             <WhatsappFix />
             <Habitaciones />
-            <Galeria />
+            <Galeria/>
             <Servicios />
             <Nosotros />
-            <Pago />
             <Contacto />
+            <Pago />
             <Ubicacion />
             <Footer />
         </>
