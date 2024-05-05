@@ -19,6 +19,10 @@ const images = [
         thumbnail: habitacion7img,
     },
     {
+        original: habitacion8img,
+        thumbnail: habitacion8img,
+    },
+    {
         original: habitacion9img,
         thumbnail: habitacion9img,
     },
@@ -58,8 +62,8 @@ const images = [
 
 const MyGallery = () => {
     return (
-        <div>
-            <ImageGallery items={images} />;
+        <div className="mx-[7%]">
+            <ImageGallery items={images} showPlayButton={false} showBullets={true} showThumbnails={false}  autoPlay={true}/>
         </div>
     );
 };
