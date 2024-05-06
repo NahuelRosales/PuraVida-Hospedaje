@@ -1,5 +1,5 @@
 import HabitacionCard from "../../HabitacionCard";
-import habitaciones from "../../../utils/habitaciones";
+import habitaciones from "../../../utils/habitaciones.js";
 import Button from "../../../commons/button";
 
 const Habitaciones = () => {
